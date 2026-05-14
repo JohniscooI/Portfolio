@@ -80,6 +80,18 @@
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000006",
       "section": "work"
+    },
+    {
+      "id": "1778777212051",
+      "title": "WALKING",
+      "type": "Movement Animation",
+      "year": "2026",
+      "tags": [
+        "Movement"
+      ],
+      "iconUrl": "",
+      "videoUrl": "",
+      "section": "work"
     }
   ]
 }
