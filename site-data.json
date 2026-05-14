@@ -10,18 +10,6 @@
   },
   "projects": [
     {
-      "id": "1",
-      "title": "ECHO",
-      "type": "Short Film",
-      "year": "2024",
-      "tags": [
-        "Short Film"
-      ],
-      "iconUrl": "",
-      "videoUrl": "https://vimeo.com/000000001",
-      "section": "work"
-    },
-    {
       "id": "2",
       "title": "NOVA",
       "type": "Brand Identity",
