@@ -1,0 +1,73 @@
+{
+  "status": "open",
+  "pricing": {
+    "usd": 10,
+    "robux": 10000
+  },
+  "announcement": {
+    "message": "",
+    "expiresAt": null
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "ECHO",
+      "type": "Short Film",
+      "year": "2024",
+      "tags": ["Short Film"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000001",
+      "section": "work"
+    },
+    {
+      "id": "2",
+      "title": "NOVA",
+      "type": "Brand Identity",
+      "year": "2023",
+      "tags": ["Brand Identity"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000002",
+      "section": "work"
+    },
+    {
+      "id": "3",
+      "title": "PULSE",
+      "type": "Music Video",
+      "year": "2023",
+      "tags": ["Music Video"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000003",
+      "section": "work"
+    },
+    {
+      "id": "4",
+      "title": "ARC",
+      "type": "Documentary",
+      "year": "2023",
+      "tags": ["Documentary"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000004",
+      "section": "work"
+    },
+    {
+      "id": "5",
+      "title": "DRIFT",
+      "type": "Game Cinematic",
+      "year": "2022",
+      "tags": ["Game Cinematic"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000005",
+      "section": "work"
+    },
+    {
+      "id": "6",
+      "title": "VOID",
+      "type": "Art Installation",
+      "year": "2022",
+      "tags": ["Art Installation"],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000006",
+      "section": "work"
+    }
+  ]
+}
