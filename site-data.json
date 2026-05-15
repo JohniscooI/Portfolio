@@ -74,6 +74,39 @@
       "videoUrl": "https://vimeo.com/000000006",
       "docUrl": "",
       "section": "work"
+    },
+    {
+      "id": "7",
+      "title": "PROJECT 7",
+      "type": "Animation",
+      "year": "2024",
+      "tags": [],
+      "iconUrl": "",
+      "videoUrl": "",
+      "docUrl": "",
+      "section": "work"
+    },
+    {
+      "id": "8",
+      "title": "PROJECT 8",
+      "type": "Animation",
+      "year": "2024",
+      "tags": [],
+      "iconUrl": "",
+      "videoUrl": "",
+      "docUrl": "",
+      "section": "work"
+    },
+    {
+      "id": "9",
+      "title": "PROJECT 9",
+      "type": "Animation",
+      "year": "2024",
+      "tags": [],
+      "iconUrl": "",
+      "videoUrl": "",
+      "docUrl": "",
+      "section": "work"
     }
   ]
 }
