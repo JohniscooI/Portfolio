@@ -1,7 +1,7 @@
 {
   "status": "open",
   "pricing": {
-    "usd": 15,
+    "usd": 10,
     "robux": 1000
   },
   "announcement": {
@@ -10,15 +10,25 @@
   },
   "projects": [
     {
+      "id": "1",
+      "title": "ECHO",
+      "type": "Short Film",
+      "year": "2024",
+      "tags": [],
+      "iconUrl": "",
+      "videoUrl": "https://vimeo.com/000000001",
+      "docUrl": "",
+      "section": "work"
+    },
+    {
       "id": "2",
       "title": "NOVA",
       "type": "Brand Identity",
       "year": "2023",
-      "tags": [
-        "Brand Identity"
-      ],
+      "tags": [],
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000002",
+      "docUrl": "",
       "section": "work"
     },
     {
@@ -26,11 +36,10 @@
       "title": "PULSE",
       "type": "Music Video",
       "year": "2023",
-      "tags": [
-        "Music Video"
-      ],
+      "tags": [],
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000003",
+      "docUrl": "",
       "section": "work"
     },
     {
@@ -38,11 +47,10 @@
       "title": "ARC",
       "type": "Documentary",
       "year": "2023",
-      "tags": [
-        "Documentary"
-      ],
+      "tags": [],
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000004",
+      "docUrl": "",
       "section": "work"
     },
     {
@@ -50,11 +58,10 @@
       "title": "DRIFT",
       "type": "Game Cinematic",
       "year": "2022",
-      "tags": [
-        "Game Cinematic"
-      ],
+      "tags": [],
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000005",
+      "docUrl": "",
       "section": "work"
     },
     {
@@ -62,23 +69,10 @@
       "title": "VOID",
       "type": "Art Installation",
       "year": "2022",
-      "tags": [
-        "Art Installation"
-      ],
+      "tags": [],
       "iconUrl": "",
       "videoUrl": "https://vimeo.com/000000006",
-      "section": "work"
-    },
-    {
-      "id": "1778777212051",
-      "title": "WALKING",
-      "type": "Movement Animation",
-      "year": "2026",
-      "tags": [
-        "Movement"
-      ],
-      "iconUrl": "",
-      "videoUrl": "",
+      "docUrl": "",
       "section": "work"
     }
   ]
