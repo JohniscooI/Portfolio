@@ -598,7 +598,7 @@
   /* ── Card video layer ── */
   .card-video-wrap {
     position: absolute;
-    inset: -10%;
+    inset: 0;
     z-index: 0;
     overflow: hidden;
     pointer-events: none;
@@ -606,8 +606,9 @@
   .card-video-wrap iframe {
     position: absolute;
     top: 50%; left: 50%;
-    width: 150%;
-    height: 150%;
+    /* force square fill: use whichever dimension is larger */
+    width: 300%;
+    height: 300%;
     transform: translate(-50%, -50%);
     border: none;
     pointer-events: none;
