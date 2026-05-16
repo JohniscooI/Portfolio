@@ -16,12 +16,14 @@
   "projects": [
     {
       "id": "1",
-      "title": "ECHO",
-      "type": "Short Film",
-      "year": "2024",
-      "tags": [],
+      "title": "WALKING",
+      "type": "Movement",
+      "year": "2026",
+      "tags": [
+        "Movement"
+      ],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/000000001",
+      "videoUrl": "https://vimeo.com/1192474766?fl=ip&fe=ec",
       "docUrl": "",
       "section": "work"
     },
