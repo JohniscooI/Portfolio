@@ -598,24 +598,19 @@
   /* ── Card video layer ── */
   .card-video-wrap {
     position: absolute;
-    inset: 0;
+    inset: -10%;
     z-index: 0;
     overflow: hidden;
-    opacity: 1;
     pointer-events: none;
   }
   .card-video-wrap iframe {
     position: absolute;
     top: 50%; left: 50%;
-    /* oversized to ensure full card coverage regardless of video aspect ratio */
-    width: 200%;
-    height: 200%;
-    min-width: 100%;
-    min-height: 100%;
+    width: 150%;
+    height: 150%;
     transform: translate(-50%, -50%);
     border: none;
     pointer-events: none;
-    object-fit: cover;
   }
   /* QA card icon images — zoom to fill */
   .card-visual img {
