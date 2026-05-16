@@ -24,12 +24,16 @@
     },
     {
       "id": "2",
-      "title": "NOVA",
-      "type": "Brand Identity",
-      "year": "2023",
-      "tags": [],
+      "title": "WOBBLE TREND",
+      "type": "Misc",
+      "year": "2026",
+      "tags": [
+        "Emotes",
+        "For Fun",
+        "Misc"
+      ],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/000000002",
+      "videoUrl": "https://vimeo.com/1192830008?fl=ip&fe=ec",
       "docUrl": "",
       "section": "work"
     },
