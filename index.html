@@ -602,20 +602,31 @@
     z-index: 0;
     overflow: hidden;
     opacity: 1;
-    transition: opacity 0.6s ease;
     pointer-events: none;
   }
   .card-video-wrap iframe {
     position: absolute;
     top: 50%; left: 50%;
-    /* fill the card regardless of aspect ratio */
-    width: 177.78%;
-    height: 177.78%;
+    /* oversized to ensure full card coverage regardless of video aspect ratio */
+    width: 200%;
+    height: 200%;
     min-width: 100%;
-    min-height: 56.25%;
+    min-height: 100%;
     transform: translate(-50%, -50%);
     border: none;
     pointer-events: none;
+    object-fit: cover;
+  }
+  /* QA card icon images — zoom to fill */
+  .card-visual img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.65;
+    z-index: 0;
   }
   /* Dim the abstract shapes since video always shows */
   .card-shape {
@@ -1246,10 +1257,32 @@
       applyStatus(data);
       applyPricing(data);
       applyAnnouncement(data);
+      applyAbout(data);
       renderProjects((data.projects || []).filter(p => p.section === 'work' || !p.section));
       renderQAProjects((data.projects || []).filter(p => p.section === 'qa'));
     } catch (e) {
       console.warn('Could not load site-data.json:', e);
+    }
+  }
+
+  function applyAbout(data) {
+    const about = data.about;
+    if (!about) return;
+    if (about.pfpUrl) {
+      const pfp = document.querySelector('.about-pfp');
+      if (pfp) pfp.src = about.pfpUrl;
+    }
+    if (about.bannerUrl) {
+      const wrap = document.querySelector('.about-video-wrap');
+      if (wrap) {
+        const existing = wrap.querySelector('iframe');
+        const embedUrl = buildEmbedUrl(about.bannerUrl) || about.bannerUrl;
+        if (existing) {
+          existing.src = embedUrl;
+        } else {
+          wrap.innerHTML = `<iframe src="${embedUrl}" allow="autoplay; fullscreen" frameborder="0" allowfullscreen></iframe>`;
+        }
+      }
     }
   }
 
@@ -1282,18 +1315,26 @@
     const ann = data.announcement;
     if (!ann?.message) return;
     if (ann.expiresAt && new Date(ann.expiresAt) < new Date()) return;
+    const colorMap = {
+      red:    { bg: '#dc2626', text: '#fff', btn: '#fff' },
+      yellow: { bg: '#eab308', text: '#000', btn: '#000' },
+      white:  { bg: '#ffffff', text: '#000', btn: '#000' },
+    };
+    const c = colorMap[ann.color] || colorMap.white;
+    const existing = document.getElementById('ann-banner');
+    if (existing) existing.remove();
     const banner = document.createElement('div');
     banner.id = 'ann-banner';
     banner.style.cssText = `
       position:fixed; top:0; left:0; right:0; z-index:10000;
-      background:#fff; color:#000;
+      background:${c.bg}; color:${c.text};
       font-family:'Space Mono',monospace; font-size:11px;
       letter-spacing:0.25em; text-transform:uppercase;
       padding:10px 48px; text-align:center;
       display:flex; align-items:center; justify-content:center; gap:16px;
     `;
     banner.innerHTML = `<span>📢 ${ann.message}</span>
-      <button onclick="this.parentElement.remove()" style="background:none;border:none;cursor:pointer;font-size:16px;line-height:1;color:#000;">×</button>`;
+      <button onclick="this.parentElement.remove()" style="background:none;border:none;cursor:pointer;font-size:18px;line-height:1;color:${c.btn};font-weight:bold;">×</button>`;
     document.body.prepend(banner);
   }
 
@@ -1326,7 +1367,7 @@
           ${shapes}
           <div class="card-video-wrap"></div>
           <div class="card-video-scrim"></div>
-          ${proj.iconUrl ? `<img src="${proj.iconUrl}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.5;z-index:0;">` : ''}
+          ${proj.iconUrl ? `<img src="${proj.iconUrl}" alt="${proj.title}">` : ''}
         </div>
         <div class="card-info">
           <div class="card-year">${proj.year || ''}</div>
