@@ -9,8 +9,9 @@
     "bannerUrl": "https://vimeo.com/1192261044"
   },
   "announcement": {
-    "message": "",
-    "expiresAt": null
+    "message": "Animation work section is still work in progress!",
+    "color": "yellow",
+    "expiresAt": "2026-05-20T15:46:13.768Z"
   },
   "projects": [
     {
