@@ -4,6 +4,10 @@
     "usd": 10,
     "robux": 1000
   },
+  "about": {
+    "pfpUrl": "https://i.imgur.com/nSEZWOp.png",
+    "bannerUrl": "https://vimeo.com/1192261044"
+  },
   "announcement": {
     "message": "",
     "expiresAt": null
@@ -11,29 +15,23 @@
   "projects": [
     {
       "id": "1",
-      "title": "WALKING",
-      "type": "Movement",
-      "year": "2026",
-      "tags": [
-        "Movement"
-      ],
+      "title": "ECHO",
+      "type": "Short Film",
+      "year": "2024",
+      "tags": [],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/1192474766?share=copy&fl=sv&fe=ci",
+      "videoUrl": "https://vimeo.com/000000001",
       "docUrl": "",
       "section": "work"
     },
     {
       "id": "2",
-      "title": "WOBBLE TREND",
-      "type": "Misc",
-      "year": "2026",
-      "tags": [
-        "Emotes",
-        "For Fun",
-        "Misc"
-      ],
+      "title": "NOVA",
+      "type": "Brand Identity",
+      "year": "2023",
+      "tags": [],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/1192830008?fl=ip&fe=ec",
+      "videoUrl": "https://vimeo.com/000000002",
       "docUrl": "",
       "section": "work"
     },
@@ -113,28 +111,6 @@
       "videoUrl": "",
       "docUrl": "",
       "section": "work"
-    },
-    {
-      "id": "1778938570367",
-      "title": "WATER EMPIRE!",
-      "type": "Incremental Simulator",
-      "year": "2026",
-      "tags": [],
-      "iconUrl": "https://i.imgur.com/o6HHhnS.png",
-      "videoUrl": "",
-      "docUrl": "https://docs.google.com/document/d/1a8pSe6u9TBBZR5wwGhbvMygDukrhkRkfksNudJ4D34c/edit?usp=sharing",
-      "section": "qa"
-    },
-    {
-      "id": "1778938732814",
-      "title": "ULTIMATE OUTFIT SHOPPING SPREE",
-      "type": "Catalog Game",
-      "year": "2026",
-      "tags": [],
-      "iconUrl": "https://i.imgur.com/3OXaEKJ.png",
-      "videoUrl": "",
-      "docUrl": "https://docs.google.com/document/d/1Z96qaWxW_LbCj26YEHBShO8jezBHo65J-b8Uos_KYgQ/edit?usp=sharing",
-      "section": "qa"
     }
   ]
 }
