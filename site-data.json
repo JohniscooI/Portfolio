@@ -162,6 +162,17 @@
       "videoUrl": "",
       "docUrl": "https://docs.google.com/document/d/1InTFATGXuAZaBMFwiDZXlGcIWW8ria_kb5iRuJzENZ0/edit?usp=sharing",
       "section": "qa"
+    },
+    {
+      "id": "1779359460064",
+      "title": "EMOTE RNG",
+      "type": "RNG",
+      "year": "2026",
+      "tags": [],
+      "iconUrl": "https://i.imgur.com/JFhupsD.png",
+      "videoUrl": "",
+      "docUrl": "https://docs.google.com/document/d/1nsDO3NhW_8x6AoyffW9btPFOjMCLdtUvKSBzdZXgkDU/edit?usp=sharing",
+      "section": "qa"
     }
   ]
 }
