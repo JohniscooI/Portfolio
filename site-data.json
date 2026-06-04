@@ -44,12 +44,15 @@
     },
     {
       "id": "3",
-      "title": "PULSE",
-      "type": "Music Video",
-      "year": "2023",
-      "tags": [],
+      "title": "PYROMANCER TOWER",
+      "type": "IDLE",
+      "year": "2026",
+      "tags": [
+        "IDLE",
+        "MOVEMENT"
+      ],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/000000003",
+      "videoUrl": "https://vimeo.com/1198326377?fl=ip&fe=ec",
       "docUrl": "",
       "section": "work"
     },
