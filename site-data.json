@@ -177,6 +177,17 @@
       "videoUrl": "",
       "docUrl": "https://docs.google.com/document/d/1nsDO3NhW_8x6AoyffW9btPFOjMCLdtUvKSBzdZXgkDU/edit?usp=sharing",
       "section": "qa"
+    },
+    {
+      "id": "1780560936959",
+      "title": "SHIBUYA TRUCK COOKING",
+      "type": "Simulator",
+      "year": "2026",
+      "tags": [],
+      "iconUrl": "https://i.imgur.com/dhvPgaM.jpeg",
+      "videoUrl": "",
+      "docUrl": "https://docs.google.com/document/d/1EIj1l5DCqW0q-T0wj27R5-fqXe1OaI9mnkAT8GIFrDw/edit?usp=sharing",
+      "section": "qa"
     }
   ]
 }
