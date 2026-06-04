@@ -57,12 +57,14 @@
     },
     {
       "id": "4",
-      "title": "ARC",
-      "type": "Documentary",
-      "year": "2023",
-      "tags": [],
+      "title": "PYROMANCER ACTION",
+      "type": "ACTION",
+      "year": "2026",
+      "tags": [
+        "ACTION"
+      ],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/000000004",
+      "videoUrl": "https://vimeo.com/1198326331?fl=ip&fe=ec",
       "docUrl": "",
       "section": "work"
     },
