@@ -55,14 +55,14 @@
     },
     {
       "id": "4",
-      "title": "PYROMANCER ACTION",
-      "type": "ACTION",
+      "title": "FLIGHT IDLE",
+      "type": "IDLE",
       "year": "2026",
       "tags": [
-        "ACTION"
+        "IDLE"
       ],
       "iconUrl": "",
-      "videoUrl": "https://vimeo.com/1198326331?fl=ip&fe=ec",
+      "videoUrl": "https://vimeo.com/1200022167?share=copy&fl=sv&fe=ci",
       "docUrl": "",
       "section": "work"
     },
